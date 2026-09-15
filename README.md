@@ -370,9 +370,12 @@ O projeto não possui vínculo oficial com Rick Riordan ou com os detentores da 
 
 ---
 
-# 👨‍💻 Autor
+# 👨‍💻 Autores
 
 **David do Carmo Rodrigues Vieira**
+----------------------
 **Beatriz de Barros Souza**
+----------------------
 **Kayk Eduardo Stefano**
+----------------------
 **Martha Beatriz Soares Valerio**
