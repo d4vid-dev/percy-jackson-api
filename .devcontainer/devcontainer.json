@@ -1,0 +1,21 @@
+{
+    "name": "Laravel SQLite (Fast Dev)",
+    "image": "mcr.microsoft.com/devcontainers/php:8.3",
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "onecentlin.laravel5-snippets",
+                "amiralizadeh9480.laravel-extra-intellisense",
+                "shufo.vscode-blade-formatter",
+                "bmewburn.vscode-inteliphense-client",
+                "alexcvzz.vscode-sqlite"
+            ]
+        }
+    },
+    "remoteUser": "vscode",
+    "postCreateCommand": "chmod +x .devcontainer/setup.sh && ./.devcontainer/setup.sh",
+    "forwardPorts": [8000]
+}
