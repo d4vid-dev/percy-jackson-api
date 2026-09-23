@@ -148,11 +148,65 @@ Exemplo de corpo da requisição:
     "poderes": "Hidrocinese, respiração subaquática e comunicação com criaturas marinhas.",
     "raca": "Semideus grego",
     "parentesco_divino": "Filho de Poseidon",
-    "imagem": "Percy Jackson"
+    "imagem": null
 }
 ```
 
 ---
+
+## Upload de fotos
+
+Envie o arquivo no campo `imagem` usando `multipart/form-data`. A foto é opcional:
+JPEG, PNG ou WebP, com tamanho máximo de 5 MB (5120 KB). Texto, URLs, SVG e outros
+formatos não são aceitos nesse campo. As demais propriedades do CRUD continuam disponíveis.
+
+Os arquivos são armazenados pelo Storage no disco `public`, em
+`storage/app/public/personagens`. Configure `APP_URL` com o endereço público da API e execute:
+
+```bash
+php artisan migrate
+php artisan storage:link
+```
+
+A migration remove os antigos nomes usados como imagem, preservando os personagens.
+O link `public/storage` permite acessar os arquivos. O Seeder preserva fotos já enviadas.
+No PHP, configure `upload_max_filesize` para pelo menos `5M` e `post_max_size` acima
+desse limite, por exemplo `8M`, para permitir o envio com os demais campos.
+
+Cadastro com foto:
+
+```bash
+curl -X POST http://127.0.0.1:8000/api/personagens \
+  -H "Accept: application/json" \
+  -F 'nome=Personagem de exemplo' \
+  -F 'descricao=Descrição do personagem' \
+  -F 'imagem=@/caminho/foto.jpg'
+```
+
+Para substituir uma foto, use POST com `_method=PUT` (ou `PATCH`), permitindo que
+o PHP processe o upload multipart. Não defina manualmente o `Content-Type`; o cliente
+deve gerar o boundary do multipart.
+
+```bash
+curl -X POST http://127.0.0.1:8000/api/personagens/1 \
+  -H "Accept: application/json" \
+  -F '_method=PUT' \
+  -F 'imagem=@/caminho/nova-foto.png'
+```
+
+Respostas de cadastro, edição, consulta e listagem incluem:
+
+```json
+{
+    "imagem": "personagens/arquivo.jpg",
+    "imagem_url": "http://127.0.0.1:8000/storage/personagens/arquivo.jpg"
+}
+```
+
+Sem foto, ambos são `null`. Omitir `imagem` na edição mantém a foto atual;
+enviar `"imagem": null` em JSON remove a foto. Ao substituir a foto ou excluir
+o personagem, o arquivo anterior é excluído do Storage. Requisições JSON para
+editar os demais campos continuam usando PUT/PATCH normalmente.
 
 ## Atualizar personagem
 
@@ -312,7 +366,7 @@ pode retornar:
     "poderes": "Hidrocinese, respirar debaixo d'água, cura através da água, resistência à pressão submarina e comunicação com criaturas marinhas.",
     "raca": "Semideus grego",
     "parentesco_divino": "Filho de Poseidon",
-    "imagem": "Percy Jackson"
+    "imagem": null
 }
 ```
 

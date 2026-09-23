@@ -18,7 +18,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Hidrocinese, respirar debaixo d\'água, cura através da água, resistência à pressão submarina, comunicação com cavalos e criaturas marinhas.',
                 'raca' => 'Semideus grego',
                 'parentesco_divino' => 'Filho de Poseidon',
-                'imagem' => 'Percy Jackson',
             ],
             [
                 'nome' => 'Annabeth Chase',
@@ -28,7 +27,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Inteligência elevada, estratégia militar, arquitetura, combate e grande habilidade com facas.',
                 'raca' => 'Semideusa grega',
                 'parentesco_divino' => 'Filha de Atena',
-                'imagem' => 'Annabeth Chase',
             ],
             [
                 'nome' => 'Grover Underwood',
@@ -38,7 +36,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Comunicação com animais, magia da natureza, música mágica, percepção de emoções e ligação com plantas.',
                 'raca' => 'Sátiro',
                 'parentesco_divino' => 'Nenhum',
-                'imagem' => 'Grover Underwood',
             ],
             [
                 'nome' => 'Luke Castellan',
@@ -48,7 +45,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Excelente esgrima, agilidade, furtividade, força de semideus e habilidades relacionadas a Hermes.',
                 'raca' => 'Semideus grego',
                 'parentesco_divino' => 'Filho de Hermes',
-                'imagem' => 'Luke Castellan',
             ],
             [
                 'nome' => 'Clarisse La Rue',
@@ -58,7 +54,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Força elevada, resistência física, combate corpo a corpo e domínio de armas.',
                 'raca' => 'Semideusa grega',
                 'parentesco_divino' => 'Filha de Ares',
-                'imagem' => 'Clarisse La Rue',
             ],
             [
                 'nome' => 'Tyson',
@@ -68,7 +63,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Força sobre-humana, resistência ao fogo, excelente capacidade de forja e sentidos aprimorados.',
                 'raca' => 'Ciclope',
                 'parentesco_divino' => 'Filho de Poseidon',
-                'imagem' => 'Tyson',
             ],
             [
                 'nome' => 'Thalia Grace',
@@ -78,7 +72,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Eletrocinese, invocação de raios, influência sobre o céu e excelente combate.',
                 'raca' => 'Semideusa grega',
                 'parentesco_divino' => 'Filha de Zeus',
-                'imagem' => 'Thalia Grace',
             ],
             [
                 'nome' => 'Nico di Angelo',
@@ -88,7 +81,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Necromancia, invocação de mortos, comunicação com espíritos, viagem pelas sombras e geocinese.',
                 'raca' => 'Semideus grego',
                 'parentesco_divino' => 'Filho de Hades',
-                'imagem' => 'Nico di Angelo',
             ],
             [
                 'nome' => 'Bianca di Angelo',
@@ -98,7 +90,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Habilidades de combate e poderes relacionados à sua descendência de Hades.',
                 'raca' => 'Semideusa grega',
                 'parentesco_divino' => 'Filha de Hades',
-                'imagem' => 'Bianca di Angelo',
             ],
             [
                 'nome' => 'Rachel Elizabeth Dare',
@@ -108,7 +99,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Visão através da Névoa e poderes proféticos como Oráculo.',
                 'raca' => 'Humana',
                 'parentesco_divino' => 'Nenhum',
-                'imagem' => 'Rachel Elizabeth Dare',
             ],
             [
                 'nome' => 'Chiron',
@@ -118,7 +108,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Longevidade, conhecimento, cura, combate, arco e flecha e treinamento de heróis.',
                 'raca' => 'Centauro',
                 'parentesco_divino' => 'Filho de Cronos',
-                'imagem' => 'Chiron',
             ],
             [
                 'nome' => 'Sally Jackson',
@@ -128,7 +117,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Nenhum poder sobrenatural conhecido',
                 'raca' => 'Humana',
                 'parentesco_divino' => 'Nenhum',
-                'imagem' => 'Sally Jackson',
             ],
             [
                 'nome' => 'Gabriel "Gabe" Ugliano',
@@ -138,7 +126,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Nenhum',
                 'raca' => 'Humano',
                 'parentesco_divino' => 'Nenhum',
-                'imagem' => 'Gabe Ugliano',
             ],
             [
                 'nome' => 'Paul Blofis',
@@ -148,7 +135,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Nenhum',
                 'raca' => 'Humano',
                 'parentesco_divino' => 'Nenhum',
-                'imagem' => 'Paul Blofis',
             ],
             [
                 'nome' => 'Zoë Nightshade',
@@ -158,7 +144,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Longevidade, força elevada, velocidade, arqueirismo e excelente habilidade de combate.',
                 'raca' => 'Hespéride / Caçadora de Ártemis',
                 'parentesco_divino' => 'Filha de Atlas',
-                'imagem' => 'Zoë Nightshade',
             ],
             [
                 'nome' => 'Silena Beauregard',
@@ -168,7 +153,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Persuasão, charme, habilidades sociais e combate.',
                 'raca' => 'Semideusa grega',
                 'parentesco_divino' => 'Filha de Afrodite',
-                'imagem' => 'Silena Beauregard',
             ],
             [
                 'nome' => 'Charles Beckendorf',
@@ -178,7 +162,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Engenharia, mecânica, construção, forja e combate.',
                 'raca' => 'Semideus grego',
                 'parentesco_divino' => 'Filho de Hefesto',
-                'imagem' => 'Charles Beckendorf',
             ],
             [
                 'nome' => 'Ethan Nakamura',
@@ -188,7 +171,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Excelente combate corpo a corpo e esgrima.',
                 'raca' => 'Semideus grego',
                 'parentesco_divino' => 'Filho de Nêmesis',
-                'imagem' => 'Ethan Nakamura',
             ],
             [
                 'nome' => 'Connor Stoll',
@@ -198,7 +180,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Furtividade, agilidade, habilidade com armadilhas e truques.',
                 'raca' => 'Semideus grego',
                 'parentesco_divino' => 'Filho de Hermes',
-                'imagem' => 'Connor Stoll',
             ],
             [
                 'nome' => 'Travis Stoll',
@@ -208,7 +189,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Furtividade, velocidade, agilidade e habilidade com armadilhas.',
                 'raca' => 'Semideus grego',
                 'parentesco_divino' => 'Filho de Hermes',
-                'imagem' => 'Travis Stoll',
             ],
             [
                 'nome' => 'Michael Yew',
@@ -218,7 +198,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Arquearia excepcional e habilidade de combate.',
                 'raca' => 'Semideus grego',
                 'parentesco_divino' => 'Filho de Apolo',
-                'imagem' => 'Michael Yew',
             ],
             [
                 'nome' => 'Lee Fletcher',
@@ -228,7 +207,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Arquearia e habilidade de combate.',
                 'raca' => 'Semideus grego',
                 'parentesco_divino' => 'Filho de Apolo',
-                'imagem' => 'Lee Fletcher',
             ],
             [
                 'nome' => 'Katie Gardner',
@@ -238,7 +216,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Afinidade com plantas e natureza.',
                 'raca' => 'Semideusa grega',
                 'parentesco_divino' => 'Filha de Deméter',
-                'imagem' => 'Katie Gardner',
             ],
             [
                 'nome' => 'Chris Rodriguez',
@@ -248,7 +225,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Combate, força e agilidade.',
                 'raca' => 'Semideus grego',
                 'parentesco_divino' => 'Filho de Hermes',
-                'imagem' => 'Chris Rodriguez',
             ],
             [
                 'nome' => 'May Castellan',
@@ -258,7 +234,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Capacidade de enxergar através da Névoa e visões proféticas.',
                 'raca' => 'Humana',
                 'parentesco_divino' => 'Nenhum',
-                'imagem' => 'May Castellan',
             ],
             [
                 'nome' => 'Frederick Chase',
@@ -268,7 +243,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Nenhum poder sobrenatural',
                 'raca' => 'Humano',
                 'parentesco_divino' => 'Nenhum',
-                'imagem' => 'Frederick Chase',
             ],
             [
                 'nome' => 'Juniper',
@@ -278,7 +252,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Ligação sobrenatural com sua árvore e comunicação com a natureza.',
                 'raca' => 'Dríade',
                 'parentesco_divino' => 'Nenhum',
-                'imagem' => 'Juniper',
             ],
             [
                 'nome' => 'Argus',
@@ -288,7 +261,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Percepção sobrenatural através de seus inúmeros olhos e habilidade de combate.',
                 'raca' => 'Gigante',
                 'parentesco_divino' => 'Não especificado',
-                'imagem' => 'Argus',
             ],
             [
                 'nome' => 'Tantalus',
@@ -298,7 +270,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Existência como espírito e longevidade sobrenatural.',
                 'raca' => 'Espírito humano',
                 'parentesco_divino' => 'Filho de Zeus segundo a mitologia',
-                'imagem' => 'Tantalus',
             ],
             [
                 'nome' => 'Daedalus / Quintus',
@@ -308,7 +279,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Inteligência extraordinária, engenharia, invenções e domínio do Labirinto.',
                 'raca' => 'Semideus',
                 'parentesco_divino' => 'Filho de Atena',
-                'imagem' => 'Daedalus',
             ],
             [
                 'nome' => 'Mrs. O\'Leary',
@@ -318,7 +288,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Viagem pelas sombras, força sobrenatural, velocidade e resistência.',
                 'raca' => 'Cão infernal',
                 'parentesco_divino' => 'Nenhum',
-                'imagem' => 'Mrs. O\'Leary',
             ],
             [
                 'nome' => 'Blackjack',
@@ -328,7 +297,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Voo e comunicação com Percy.',
                 'raca' => 'Pégaso',
                 'parentesco_divino' => 'Nenhum',
-                'imagem' => 'Blackjack',
             ],
             [
                 'nome' => 'Poseidon',
@@ -338,7 +306,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Hidrocinese, controle dos oceanos, terremotos, tempestades, criação e controle de criaturas marinhas.',
                 'raca' => 'Deus Olímpico',
                 'parentesco_divino' => 'Filho de Cronos e Reia',
-                'imagem' => 'Poseidon',
             ],
             [
                 'nome' => 'Zeus',
@@ -348,7 +315,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Eletrocinese, manipulação do clima, controle dos céus, raios e transformação.',
                 'raca' => 'Deus Olímpico',
                 'parentesco_divino' => 'Filho de Cronos e Reia',
-                'imagem' => 'Zeus',
             ],
             [
                 'nome' => 'Hades',
@@ -358,7 +324,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Necromancia, controle de mortos, sombras, riquezas subterrâneas e viagem pelas sombras.',
                 'raca' => 'Deus',
                 'parentesco_divino' => 'Filho de Cronos e Reia',
-                'imagem' => 'Hades',
             ],
             [
                 'nome' => 'Atena',
@@ -368,7 +333,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Inteligência divina, estratégia, combate e conhecimento.',
                 'raca' => 'Deusa Olímpica',
                 'parentesco_divino' => 'Filha de Zeus',
-                'imagem' => 'Athena',
             ],
             [
                 'nome' => 'Ares',
@@ -378,7 +342,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Força divina, combate, manipulação de conflitos e domínio da guerra.',
                 'raca' => 'Deus Olímpico',
                 'parentesco_divino' => 'Filho de Zeus e Hera',
-                'imagem' => 'Ares',
             ],
             [
                 'nome' => 'Ártemis',
@@ -388,7 +351,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Arquearia divina, transformação, caça, controle de animais selvagens e poderes lunares.',
                 'raca' => 'Deusa Olímpica',
                 'parentesco_divino' => 'Filha de Zeus e Leto',
-                'imagem' => 'Artemis',
             ],
             [
                 'nome' => 'Apolo',
@@ -398,7 +360,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Profecia, cura, luz, música e arquearia divina.',
                 'raca' => 'Deus Olímpico',
                 'parentesco_divino' => 'Filho de Zeus e Leto',
-                'imagem' => 'Apollo',
             ],
             [
                 'nome' => 'Hermes',
@@ -408,7 +369,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Supervelocidade, teletransporte, magia, viagens e comunicação.',
                 'raca' => 'Deus Olímpico',
                 'parentesco_divino' => 'Filho de Zeus e Maia',
-                'imagem' => 'Hermes',
             ],
             [
                 'nome' => 'Dionísio / Sr. D',
@@ -418,7 +378,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Manipulação de plantas, videiras, insanidade, transformação e poderes divinos.',
                 'raca' => 'Deus Olímpico',
                 'parentesco_divino' => 'Filho de Zeus e Sêmele',
-                'imagem' => 'Dionysus',
             ],
             [
                 'nome' => 'Hefesto',
@@ -428,7 +387,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Forja divina, engenharia, manipulação de fogo e criação de máquinas e autômatos.',
                 'raca' => 'Deus Olímpico',
                 'parentesco_divino' => 'Filho de Hera',
-                'imagem' => 'Hephaestus',
             ],
             [
                 'nome' => 'Afrodite',
@@ -438,7 +396,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Manipulação de emoções, amor, desejo, aparência e persuasão.',
                 'raca' => 'Deusa Olímpica',
                 'parentesco_divino' => 'Divindade olímpica',
-                'imagem' => 'Aphrodite',
             ],
             [
                 'nome' => 'Hera',
@@ -448,7 +405,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Transformação, poderes divinos, manipulação relacionada à família e casamento.',
                 'raca' => 'Deusa Olímpica',
                 'parentesco_divino' => 'Filha de Cronos e Reia',
-                'imagem' => 'Hera',
             ],
             [
                 'nome' => 'Héstia',
@@ -458,7 +414,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Manipulação do fogo da lareira, proteção do lar e poderes divinos.',
                 'raca' => 'Deusa',
                 'parentesco_divino' => 'Filha de Cronos e Reia',
-                'imagem' => 'Hestia',
             ],
             [
                 'nome' => 'Deméter',
@@ -468,7 +423,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Controle de plantas, agricultura, fertilidade e natureza.',
                 'raca' => 'Deusa Olímpica',
                 'parentesco_divino' => 'Filha de Cronos e Reia',
-                'imagem' => 'Demeter',
             ],
             [
                 'nome' => 'Cronos',
@@ -478,7 +432,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Manipulação temporal, força titânica, regeneração, combate e poderes divinos.',
                 'raca' => 'Titã',
                 'parentesco_divino' => 'Filho de Urano e Gaia',
-                'imagem' => 'Kronos',
             ],
             [
                 'nome' => 'Atlas',
@@ -488,7 +441,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Força titânica, resistência extrema e habilidade de combate.',
                 'raca' => 'Titã',
                 'parentesco_divino' => 'Filho de Jápeto e Clímene',
-                'imagem' => 'Atlas',
             ],
             [
                 'nome' => 'Calipso',
@@ -498,7 +450,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Magia, longevidade, habilidades relacionadas à natureza e cura.',
                 'raca' => 'Ninfa / divindade',
                 'parentesco_divino' => 'Filha de Atlas',
-                'imagem' => 'Calypso',
             ],
             [
                 'nome' => 'Pã',
@@ -508,7 +459,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Controle da natureza, animais, plantas e natureza selvagem.',
                 'raca' => 'Deus',
                 'parentesco_divino' => 'Associado a Hermes',
-                'imagem' => 'Pan',
             ],
             [
                 'nome' => 'Polifemo',
@@ -518,7 +468,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Força gigantesca, resistência sobrenatural e sentidos de ciclope.',
                 'raca' => 'Ciclope',
                 'parentesco_divino' => 'Filho de Poseidon',
-                'imagem' => 'Polyphemus',
             ],
             [
                 'nome' => 'Medusa',
@@ -528,7 +477,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Petrificação através do olhar, longevidade e força sobrenatural.',
                 'raca' => 'Górgona',
                 'parentesco_divino' => 'Nenhum',
-                'imagem' => 'Medusa',
             ],
             [
                 'nome' => 'Alecto / Sra. Dodds',
@@ -538,7 +486,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Voo, transformação, força sobrenatural e combate.',
                 'raca' => 'Fúria',
                 'parentesco_divino' => 'Nenhum',
-                'imagem' => 'Alecto',
             ],
             [
                 'nome' => 'Caronte',
@@ -548,7 +495,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Imortalidade e capacidade de viajar pelo Submundo.',
                 'raca' => 'Ser sobrenatural',
                 'parentesco_divino' => 'Não especificado',
-                'imagem' => 'Charon',
             ],
             [
                 'nome' => 'Procrustes / Crusty',
@@ -558,7 +504,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Força sobrenatural e longevidade.',
                 'raca' => 'Monstro',
                 'parentesco_divino' => 'Filho de Poseidon',
-                'imagem' => 'Procrustes',
             ],
             [
                 'nome' => 'Minotauro',
@@ -568,7 +513,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Força sobrenatural, resistência e combate físico.',
                 'raca' => 'Monstro',
                 'parentesco_divino' => 'Nenhum',
-                'imagem' => 'Minotaur',
             ],
             [
                 'nome' => 'Equidna',
@@ -578,7 +522,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Imortalidade, força sobrenatural e capacidade de gerar monstros.',
                 'raca' => 'Monstro primordial',
                 'parentesco_divino' => 'Descendente de divindades primordiais',
-                'imagem' => 'Echidna',
             ],
             [
                 'nome' => 'Quimera',
@@ -588,7 +531,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Força sobrenatural, resistência e capacidade de cuspir fogo.',
                 'raca' => 'Monstro',
                 'parentesco_divino' => 'Filha de Equidna',
-                'imagem' => 'Chimera',
             ],
             [
                 'nome' => 'Tifão',
@@ -598,7 +540,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Força extrema, tempestades, furacões, destruição em massa e enorme resistência.',
                 'raca' => 'Monstro primordial',
                 'parentesco_divino' => 'Filho de Gaia',
-                'imagem' => 'Typhon',
             ],
             [
                 'nome' => 'Briareu',
@@ -608,7 +549,6 @@ class PersonagemSeeder extends Seeder
                 'poderes' => 'Cem braços, força gigantesca, velocidade de combate e resistência extrema.',
                 'raca' => 'Hecatônquiro',
                 'parentesco_divino' => 'Filho de Urano e Gaia',
-                'imagem' => 'Briares',
             ],
         ];
 
