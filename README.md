@@ -143,8 +143,8 @@ Exemplo de corpo da requisição:
 {
     "nome": "Percy Jackson",
     "descricao": "Semideus filho de Poseidon.",
-    "data_nascimento": "18 de agosto",
-    "idade": "16 anos",
+    "data_nascimento": null,
+    "idade": 16,
     "poderes": "Hidrocinese, respiração subaquática e comunicação com criaturas marinhas.",
     "raca": "Semideus grego",
     "parentesco_divino": "Filho de Poseidon",
@@ -268,6 +268,10 @@ php artisan migrate:fresh --seed
 
 Esse comando executará as migrations e cadastrará os personagens presentes no `PersonagemSeeder`.
 
+Para atualizar um banco existente preservando os registros, execute `php artisan migrate`.
+
+`idade` aceita inteiro não negativo ou `null`. `data_nascimento` aceita uma data completa no formato `YYYY-MM-DD` ou `null`. Datas sem ano e idades aproximadas ou indefinidas ficam como `null`; no Seeder, a idade de Percy corresponde ao início da série. Os textos originais permanecem em comentários no Seeder.
+
 ## 7. Inicie a API
 
 ```bash
@@ -303,8 +307,8 @@ pode retornar:
     "id": 1,
     "nome": "Perseus \"Percy\" Jackson",
     "descricao": "Protagonista da saga Percy Jackson e os Olimpianos.",
-    "data_nascimento": "18 de agosto",
-    "idade": "12 anos no início da série e 16 anos em O Último Olimpiano",
+    "data_nascimento": null,
+    "idade": 12,
     "poderes": "Hidrocinese, respirar debaixo d'água, cura através da água, resistência à pressão submarina e comunicação com criaturas marinhas.",
     "raca": "Semideus grego",
     "parentesco_divino": "Filho de Poseidon",

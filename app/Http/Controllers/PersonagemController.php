@@ -65,8 +65,8 @@ class PersonagemController extends Controller
         return [
             'nome' => [$sometimes ? 'sometimes' : 'required', 'string', 'max:255', Rule::unique('personagens', 'nome')->ignore($id)],
             'descricao' => [$sometimes ? 'sometimes' : 'required', 'string'],
-            'data_nascimento' => [$prefix . 'nullable', 'string', 'max:255'],
-            'idade' => [$prefix . 'nullable', 'string', 'max:255'],
+            'data_nascimento' => [$prefix . 'nullable', 'date_format:Y-m-d'],
+            'idade' => [$prefix . 'nullable', 'integer', 'min:0', 'max:2147483647'],
             'poderes' => [$prefix . 'nullable', 'string'],
             'raca' => [$prefix . 'nullable', 'string', 'max:255'],
             'parentesco_divino' => [$prefix . 'nullable', 'string', 'max:255'],

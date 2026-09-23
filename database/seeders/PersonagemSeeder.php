@@ -13,8 +13,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Perseus "Percy" Jackson',
                 'descricao' => 'Protagonista da saga Percy Jackson e os Olimpianos. É um semideus muito poderoso e conselheiro do chalé de Poseidon.',
-                'data_nascimento' => '18 de agosto',
-                'idade' => '12 anos no início da série e 16 anos em O Último Olimpiano',
+                'data_nascimento' => null, // Original: 18 de agosto (sem data completa).
+                'idade' => 12, // Idade no início da série; 16 anos em O Último Olimpiano.
                 'poderes' => 'Hidrocinese, respirar debaixo d\'água, cura através da água, resistência à pressão submarina, comunicação com cavalos e criaturas marinhas.',
                 'raca' => 'Semideus grego',
                 'parentesco_divino' => 'Filho de Poseidon',
@@ -23,8 +23,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Annabeth Chase',
                 'descricao' => 'Filha de Atena, excelente estrategista e uma das principais personagens da saga. É melhor amiga e posteriormente namorada de Percy.',
-                'data_nascimento' => '12 de julho',
-                'idade' => 'Aproximadamente 12 anos no início da série e 16 anos no final',
+                'data_nascimento' => null, // Original: 12 de julho (sem data completa).
+                'idade' => null, // Original: Aproximadamente 12 anos no início da série e 16 anos no final.
                 'poderes' => 'Inteligência elevada, estratégia militar, arquitetura, combate e grande habilidade com facas.',
                 'raca' => 'Semideusa grega',
                 'parentesco_divino' => 'Filha de Atena',
@@ -33,8 +33,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Grover Underwood',
                 'descricao' => 'Sátiro e melhor amigo de Percy. Atua como protetor de semideuses e posteriormente se torna Senhor da Natureza Selvagem.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Aproximadamente 28 anos no início da série, embora aparente ser adolescente',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Aproximadamente 28 anos no início da série, embora aparente ser adolescente.
                 'poderes' => 'Comunicação com animais, magia da natureza, música mágica, percepção de emoções e ligação com plantas.',
                 'raca' => 'Sátiro',
                 'parentesco_divino' => 'Nenhum',
@@ -43,8 +43,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Luke Castellan',
                 'descricao' => 'Filho de Hermes e um dos principais antagonistas da saga. Torna-se aliado de Cronos.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Aproximadamente 19 anos no primeiro livro',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Aproximadamente 19 anos no primeiro livro.
                 'poderes' => 'Excelente esgrima, agilidade, furtividade, força de semideus e habilidades relacionadas a Hermes.',
                 'raca' => 'Semideus grego',
                 'parentesco_divino' => 'Filho de Hermes',
@@ -53,8 +53,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Clarisse La Rue',
                 'descricao' => 'Guerreira do chalé de Ares conhecida por sua personalidade agressiva e grande habilidade em combate.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Adolescente',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Adolescente.
                 'poderes' => 'Força elevada, resistência física, combate corpo a corpo e domínio de armas.',
                 'raca' => 'Semideusa grega',
                 'parentesco_divino' => 'Filha de Ares',
@@ -63,8 +63,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Tyson',
                 'descricao' => 'Ciclope e meio-irmão de Percy. É um excelente ferreiro e possui enorme força física.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Não informada',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Não informada.
                 'poderes' => 'Força sobre-humana, resistência ao fogo, excelente capacidade de forja e sentidos aprimorados.',
                 'raca' => 'Ciclope',
                 'parentesco_divino' => 'Filho de Poseidon',
@@ -73,8 +73,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Thalia Grace',
                 'descricao' => 'Poderosa filha de Zeus que foi transformada em pinheiro antes de retornar à forma humana. Posteriormente entra para as Caçadoras de Ártemis.',
-                'data_nascimento' => '22 de dezembro',
-                'idade' => 'Aproximadamente 15 anos fisicamente',
+                'data_nascimento' => null, // Original: 22 de dezembro (sem data completa).
+                'idade' => null, // Original: Aproximadamente 15 anos fisicamente.
                 'poderes' => 'Eletrocinese, invocação de raios, influência sobre o céu e excelente combate.',
                 'raca' => 'Semideusa grega',
                 'parentesco_divino' => 'Filha de Zeus',
@@ -83,8 +83,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Nico di Angelo',
                 'descricao' => 'Filho de Hades e irmão mais novo de Bianca. É um dos semideuses mais poderosos da série.',
-                'data_nascimento' => '28 de janeiro',
-                'idade' => 'Aproximadamente 10 anos quando aparece pela primeira vez',
+                'data_nascimento' => null, // Original: 28 de janeiro (sem data completa).
+                'idade' => null, // Original: Aproximadamente 10 anos quando aparece pela primeira vez.
                 'poderes' => 'Necromancia, invocação de mortos, comunicação com espíritos, viagem pelas sombras e geocinese.',
                 'raca' => 'Semideus grego',
                 'parentesco_divino' => 'Filho de Hades',
@@ -93,8 +93,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Bianca di Angelo',
                 'descricao' => 'Irmã mais velha de Nico e integrante das Caçadoras de Ártemis.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Aproximadamente 12 anos',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Aproximadamente 12 anos.
                 'poderes' => 'Habilidades de combate e poderes relacionados à sua descendência de Hades.',
                 'raca' => 'Semideusa grega',
                 'parentesco_divino' => 'Filha de Hades',
@@ -103,8 +103,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Rachel Elizabeth Dare',
                 'descricao' => 'Humana capaz de enxergar através da Névoa. Posteriormente assume o papel de Oráculo de Delfos.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Adolescente',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Adolescente.
                 'poderes' => 'Visão através da Névoa e poderes proféticos como Oráculo.',
                 'raca' => 'Humana',
                 'parentesco_divino' => 'Nenhum',
@@ -113,8 +113,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Chiron',
                 'descricao' => 'Centauro responsável pelo treinamento dos semideuses no Acampamento Meio-Sangue.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Milhares de anos',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Milhares de anos.
                 'poderes' => 'Longevidade, conhecimento, cura, combate, arco e flecha e treinamento de heróis.',
                 'raca' => 'Centauro',
                 'parentesco_divino' => 'Filho de Cronos',
@@ -123,8 +123,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Sally Jackson',
                 'descricao' => 'Mãe de Percy Jackson. É uma mortal capaz de enxergar parcialmente através da Névoa.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Adulta',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Adulta.
                 'poderes' => 'Nenhum poder sobrenatural conhecido',
                 'raca' => 'Humana',
                 'parentesco_divino' => 'Nenhum',
@@ -133,8 +133,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Gabriel "Gabe" Ugliano',
                 'descricao' => 'Primeiro marido de Sally Jackson e padrasto de Percy.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Adulto',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Adulto.
                 'poderes' => 'Nenhum',
                 'raca' => 'Humano',
                 'parentesco_divino' => 'Nenhum',
@@ -143,8 +143,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Paul Blofis',
                 'descricao' => 'Professor de inglês que posteriormente se casa com Sally Jackson.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Adulto',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Adulto.
                 'poderes' => 'Nenhum',
                 'raca' => 'Humano',
                 'parentesco_divino' => 'Nenhum',
@@ -153,8 +153,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Zoë Nightshade',
                 'descricao' => 'Tenente das Caçadoras de Ártemis e antiga Hespéride.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Mais de 2.000 anos',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Mais de 2.000 anos.
                 'poderes' => 'Longevidade, força elevada, velocidade, arqueirismo e excelente habilidade de combate.',
                 'raca' => 'Hespéride / Caçadora de Ártemis',
                 'parentesco_divino' => 'Filha de Atlas',
@@ -163,8 +163,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Silena Beauregard',
                 'descricao' => 'Conselheira do chalé de Afrodite e importante personagem na guerra contra Cronos.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Adolescente',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Adolescente.
                 'poderes' => 'Persuasão, charme, habilidades sociais e combate.',
                 'raca' => 'Semideusa grega',
                 'parentesco_divino' => 'Filha de Afrodite',
@@ -173,8 +173,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Charles Beckendorf',
                 'descricao' => 'Líder do chalé de Hefesto e um dos melhores ferreiros do Acampamento Meio-Sangue.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Aproximadamente 18 anos',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Aproximadamente 18 anos.
                 'poderes' => 'Engenharia, mecânica, construção, forja e combate.',
                 'raca' => 'Semideus grego',
                 'parentesco_divino' => 'Filho de Hefesto',
@@ -183,8 +183,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Ethan Nakamura',
                 'descricao' => 'Semideus que se junta ao exército de Cronos buscando reconhecimento para os filhos dos deuses menores.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Adolescente',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Adolescente.
                 'poderes' => 'Excelente combate corpo a corpo e esgrima.',
                 'raca' => 'Semideus grego',
                 'parentesco_divino' => 'Filho de Nêmesis',
@@ -193,8 +193,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Connor Stoll',
                 'descricao' => 'Integrante do chalé de Hermes conhecido por fazer pegadinhas junto com Travis.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Adolescente',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Adolescente.
                 'poderes' => 'Furtividade, agilidade, habilidade com armadilhas e truques.',
                 'raca' => 'Semideus grego',
                 'parentesco_divino' => 'Filho de Hermes',
@@ -203,8 +203,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Travis Stoll',
                 'descricao' => 'Irmão de Connor e um dos líderes do chalé de Hermes.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Adolescente',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Adolescente.
                 'poderes' => 'Furtividade, velocidade, agilidade e habilidade com armadilhas.',
                 'raca' => 'Semideus grego',
                 'parentesco_divino' => 'Filho de Hermes',
@@ -213,8 +213,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Michael Yew',
                 'descricao' => 'Líder do chalé de Apolo durante parte da guerra contra Cronos.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Adolescente',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Adolescente.
                 'poderes' => 'Arquearia excepcional e habilidade de combate.',
                 'raca' => 'Semideus grego',
                 'parentesco_divino' => 'Filho de Apolo',
@@ -223,8 +223,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Lee Fletcher',
                 'descricao' => 'Antigo líder do chalé de Apolo.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Adolescente',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Adolescente.
                 'poderes' => 'Arquearia e habilidade de combate.',
                 'raca' => 'Semideus grego',
                 'parentesco_divino' => 'Filho de Apolo',
@@ -233,8 +233,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Katie Gardner',
                 'descricao' => 'Líder do chalé de Deméter no Acampamento Meio-Sangue.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Adolescente',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Adolescente.
                 'poderes' => 'Afinidade com plantas e natureza.',
                 'raca' => 'Semideusa grega',
                 'parentesco_divino' => 'Filha de Deméter',
@@ -243,8 +243,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Chris Rodriguez',
                 'descricao' => 'Semideus que inicialmente se junta ao exército de Luke e posteriormente retorna ao Acampamento Meio-Sangue.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Adolescente',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Adolescente.
                 'poderes' => 'Combate, força e agilidade.',
                 'raca' => 'Semideus grego',
                 'parentesco_divino' => 'Filho de Hermes',
@@ -253,8 +253,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'May Castellan',
                 'descricao' => 'Mãe mortal de Luke Castellan. Tentou se tornar o novo Oráculo de Delfos.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Adulta',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Adulta.
                 'poderes' => 'Capacidade de enxergar através da Névoa e visões proféticas.',
                 'raca' => 'Humana',
                 'parentesco_divino' => 'Nenhum',
@@ -263,8 +263,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Frederick Chase',
                 'descricao' => 'Pai de Annabeth Chase e professor de história.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Adulto',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Adulto.
                 'poderes' => 'Nenhum poder sobrenatural',
                 'raca' => 'Humano',
                 'parentesco_divino' => 'Nenhum',
@@ -273,8 +273,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Juniper',
                 'descricao' => 'Ninfa da árvore e namorada de Grover Underwood.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Não informada',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Não informada.
                 'poderes' => 'Ligação sobrenatural com sua árvore e comunicação com a natureza.',
                 'raca' => 'Dríade',
                 'parentesco_divino' => 'Nenhum',
@@ -283,8 +283,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Argus',
                 'descricao' => 'Segurança do Acampamento Meio-Sangue conhecido por possuir olhos espalhados por todo o corpo.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Muito antigo',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Muito antigo.
                 'poderes' => 'Percepção sobrenatural através de seus inúmeros olhos e habilidade de combate.',
                 'raca' => 'Gigante',
                 'parentesco_divino' => 'Não especificado',
@@ -293,8 +293,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Tantalus',
                 'descricao' => 'Espírito condenado no Submundo que temporariamente ocupa o cargo de diretor de atividades do Acampamento Meio-Sangue.',
-                'data_nascimento' => 'Grécia Antiga',
-                'idade' => 'Milhares de anos',
+                'data_nascimento' => null, // Original: Grécia Antiga (sem data completa).
+                'idade' => null, // Original: Milhares de anos.
                 'poderes' => 'Existência como espírito e longevidade sobrenatural.',
                 'raca' => 'Espírito humano',
                 'parentesco_divino' => 'Filho de Zeus segundo a mitologia',
@@ -303,8 +303,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Daedalus / Quintus',
                 'descricao' => 'Inventor e criador do Labirinto. Vive durante milhares de anos através de corpos artificiais.',
-                'data_nascimento' => 'Grécia Antiga',
-                'idade' => 'Milhares de anos',
+                'data_nascimento' => null, // Original: Grécia Antiga (sem data completa).
+                'idade' => null, // Original: Milhares de anos.
                 'poderes' => 'Inteligência extraordinária, engenharia, invenções e domínio do Labirinto.',
                 'raca' => 'Semideus',
                 'parentesco_divino' => 'Filho de Atena',
@@ -313,8 +313,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Mrs. O\'Leary',
                 'descricao' => 'Cão infernal gigante originalmente pertencente a Daedalus e posteriormente companheira de Percy.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Não informada',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Não informada.
                 'poderes' => 'Viagem pelas sombras, força sobrenatural, velocidade e resistência.',
                 'raca' => 'Cão infernal',
                 'parentesco_divino' => 'Nenhum',
@@ -323,8 +323,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Blackjack',
                 'descricao' => 'Pégaso negro que se torna amigo e companheiro de Percy.',
-                'data_nascimento' => 'Não informada',
-                'idade' => 'Não informada',
+                'data_nascimento' => null, // Original: Não informada (sem data completa).
+                'idade' => null, // Original: Não informada.
                 'poderes' => 'Voo e comunicação com Percy.',
                 'raca' => 'Pégaso',
                 'parentesco_divino' => 'Nenhum',
@@ -333,8 +333,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Poseidon',
                 'descricao' => 'Deus dos mares, terremotos e cavalos. É pai de Percy e Tyson.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Imortal',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Imortal.
                 'poderes' => 'Hidrocinese, controle dos oceanos, terremotos, tempestades, criação e controle de criaturas marinhas.',
                 'raca' => 'Deus Olímpico',
                 'parentesco_divino' => 'Filho de Cronos e Reia',
@@ -343,8 +343,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Zeus',
                 'descricao' => 'Rei dos deuses do Olimpo e deus do céu e dos raios.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Imortal',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Imortal.
                 'poderes' => 'Eletrocinese, manipulação do clima, controle dos céus, raios e transformação.',
                 'raca' => 'Deus Olímpico',
                 'parentesco_divino' => 'Filho de Cronos e Reia',
@@ -353,8 +353,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Hades',
                 'descricao' => 'Deus do Submundo e governante dos mortos.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Imortal',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Imortal.
                 'poderes' => 'Necromancia, controle de mortos, sombras, riquezas subterrâneas e viagem pelas sombras.',
                 'raca' => 'Deus',
                 'parentesco_divino' => 'Filho de Cronos e Reia',
@@ -363,8 +363,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Atena',
                 'descricao' => 'Deusa da sabedoria, estratégia e arquitetura. É mãe de Annabeth.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Imortal',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Imortal.
                 'poderes' => 'Inteligência divina, estratégia, combate e conhecimento.',
                 'raca' => 'Deusa Olímpica',
                 'parentesco_divino' => 'Filha de Zeus',
@@ -373,8 +373,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Ares',
                 'descricao' => 'Deus da guerra e pai de Clarisse.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Imortal',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Imortal.
                 'poderes' => 'Força divina, combate, manipulação de conflitos e domínio da guerra.',
                 'raca' => 'Deus Olímpico',
                 'parentesco_divino' => 'Filho de Zeus e Hera',
@@ -383,8 +383,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Ártemis',
                 'descricao' => 'Deusa da caça e líder das Caçadoras de Ártemis.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Imortal',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Imortal.
                 'poderes' => 'Arquearia divina, transformação, caça, controle de animais selvagens e poderes lunares.',
                 'raca' => 'Deusa Olímpica',
                 'parentesco_divino' => 'Filha de Zeus e Leto',
@@ -393,8 +393,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Apolo',
                 'descricao' => 'Deus da música, profecia, cura, poesia e arquearia.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Imortal',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Imortal.
                 'poderes' => 'Profecia, cura, luz, música e arquearia divina.',
                 'raca' => 'Deus Olímpico',
                 'parentesco_divino' => 'Filho de Zeus e Leto',
@@ -403,8 +403,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Hermes',
                 'descricao' => 'Deus dos viajantes, mensageiros, ladrões e comércio. É pai de Luke.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Imortal',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Imortal.
                 'poderes' => 'Supervelocidade, teletransporte, magia, viagens e comunicação.',
                 'raca' => 'Deus Olímpico',
                 'parentesco_divino' => 'Filho de Zeus e Maia',
@@ -413,8 +413,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Dionísio / Sr. D',
                 'descricao' => 'Deus do vinho e diretor do Acampamento Meio-Sangue.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Imortal',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Imortal.
                 'poderes' => 'Manipulação de plantas, videiras, insanidade, transformação e poderes divinos.',
                 'raca' => 'Deus Olímpico',
                 'parentesco_divino' => 'Filho de Zeus e Sêmele',
@@ -423,8 +423,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Hefesto',
                 'descricao' => 'Deus das forjas, fogo, engenharia e invenções.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Imortal',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Imortal.
                 'poderes' => 'Forja divina, engenharia, manipulação de fogo e criação de máquinas e autômatos.',
                 'raca' => 'Deus Olímpico',
                 'parentesco_divino' => 'Filho de Hera',
@@ -433,8 +433,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Afrodite',
                 'descricao' => 'Deusa do amor, beleza e desejo.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Imortal',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Imortal.
                 'poderes' => 'Manipulação de emoções, amor, desejo, aparência e persuasão.',
                 'raca' => 'Deusa Olímpica',
                 'parentesco_divino' => 'Divindade olímpica',
@@ -443,8 +443,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Hera',
                 'descricao' => 'Rainha dos deuses e deusa do casamento e da família.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Imortal',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Imortal.
                 'poderes' => 'Transformação, poderes divinos, manipulação relacionada à família e casamento.',
                 'raca' => 'Deusa Olímpica',
                 'parentesco_divino' => 'Filha de Cronos e Reia',
@@ -453,8 +453,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Héstia',
                 'descricao' => 'Deusa da lareira, do lar e da família. Possui importante papel no final da saga.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Imortal',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Imortal.
                 'poderes' => 'Manipulação do fogo da lareira, proteção do lar e poderes divinos.',
                 'raca' => 'Deusa',
                 'parentesco_divino' => 'Filha de Cronos e Reia',
@@ -463,8 +463,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Deméter',
                 'descricao' => 'Deusa da agricultura, colheita e fertilidade.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Imortal',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Imortal.
                 'poderes' => 'Controle de plantas, agricultura, fertilidade e natureza.',
                 'raca' => 'Deusa Olímpica',
                 'parentesco_divino' => 'Filha de Cronos e Reia',
@@ -473,8 +473,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Cronos',
                 'descricao' => 'Rei dos Titãs e principal antagonista da saga Percy Jackson e os Olimpianos.',
-                'data_nascimento' => 'Era primordial',
-                'idade' => 'Imortal',
+                'data_nascimento' => null, // Original: Era primordial (sem data completa).
+                'idade' => null, // Original: Imortal.
                 'poderes' => 'Manipulação temporal, força titânica, regeneração, combate e poderes divinos.',
                 'raca' => 'Titã',
                 'parentesco_divino' => 'Filho de Urano e Gaia',
@@ -483,8 +483,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Atlas',
                 'descricao' => 'Titã que serviu como general de Cronos e foi condenado a sustentar o céu.',
-                'data_nascimento' => 'Era dos Titãs',
-                'idade' => 'Imortal',
+                'data_nascimento' => null, // Original: Era dos Titãs (sem data completa).
+                'idade' => null, // Original: Imortal.
                 'poderes' => 'Força titânica, resistência extrema e habilidade de combate.',
                 'raca' => 'Titã',
                 'parentesco_divino' => 'Filho de Jápeto e Clímene',
@@ -493,8 +493,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Calipso',
                 'descricao' => 'Imortal que vive na ilha de Ogígia e cuida de Percy após ele chegar ferido à ilha.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Milhares de anos',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Milhares de anos.
                 'poderes' => 'Magia, longevidade, habilidades relacionadas à natureza e cura.',
                 'raca' => 'Ninfa / divindade',
                 'parentesco_divino' => 'Filha de Atlas',
@@ -503,8 +503,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Pã',
                 'descricao' => 'Deus da natureza selvagem procurado por Grover durante grande parte da saga.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Imortal',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Imortal.
                 'poderes' => 'Controle da natureza, animais, plantas e natureza selvagem.',
                 'raca' => 'Deus',
                 'parentesco_divino' => 'Associado a Hermes',
@@ -513,8 +513,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Polifemo',
                 'descricao' => 'Ciclope que vive no Mar de Monstros e guarda o Velocino de Ouro.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Milhares de anos',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Milhares de anos.
                 'poderes' => 'Força gigantesca, resistência sobrenatural e sentidos de ciclope.',
                 'raca' => 'Ciclope',
                 'parentesco_divino' => 'Filho de Poseidon',
@@ -523,8 +523,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Medusa',
                 'descricao' => 'Górgona encontrada por Percy, Annabeth e Grover durante a primeira missão.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Milhares de anos',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Milhares de anos.
                 'poderes' => 'Petrificação através do olhar, longevidade e força sobrenatural.',
                 'raca' => 'Górgona',
                 'parentesco_divino' => 'Nenhum',
@@ -533,8 +533,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Alecto / Sra. Dodds',
                 'descricao' => 'Uma das três Fúrias e serva de Hades. Disfarça-se como professora de Percy.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Milhares de anos',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Milhares de anos.
                 'poderes' => 'Voo, transformação, força sobrenatural e combate.',
                 'raca' => 'Fúria',
                 'parentesco_divino' => 'Nenhum',
@@ -543,8 +543,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Caronte',
                 'descricao' => 'Barqueiro responsável por transportar as almas através do rio Estige até o Submundo.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Milhares de anos',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Milhares de anos.
                 'poderes' => 'Imortalidade e capacidade de viajar pelo Submundo.',
                 'raca' => 'Ser sobrenatural',
                 'parentesco_divino' => 'Não especificado',
@@ -553,8 +553,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Procrustes / Crusty',
                 'descricao' => 'Monstro que administra uma loja de colchões d\'água e tenta matar suas vítimas adaptando-as ao tamanho das camas.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Milhares de anos',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Milhares de anos.
                 'poderes' => 'Força sobrenatural e longevidade.',
                 'raca' => 'Monstro',
                 'parentesco_divino' => 'Filho de Poseidon',
@@ -563,8 +563,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Minotauro',
                 'descricao' => 'Monstro com corpo humanoide e cabeça de touro que ataca Percy no início da saga.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Milhares de anos',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Milhares de anos.
                 'poderes' => 'Força sobrenatural, resistência e combate físico.',
                 'raca' => 'Monstro',
                 'parentesco_divino' => 'Nenhum',
@@ -573,8 +573,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Equidna',
                 'descricao' => 'Conhecida como mãe dos monstros e encontrada por Percy durante sua primeira missão.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Milhares de anos',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Milhares de anos.
                 'poderes' => 'Imortalidade, força sobrenatural e capacidade de gerar monstros.',
                 'raca' => 'Monstro primordial',
                 'parentesco_divino' => 'Descendente de divindades primordiais',
@@ -583,8 +583,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Quimera',
                 'descricao' => 'Criatura monstruosa enfrentada por Percy no Arco de St. Louis.',
-                'data_nascimento' => 'Antiguidade',
-                'idade' => 'Não informada',
+                'data_nascimento' => null, // Original: Antiguidade (sem data completa).
+                'idade' => null, // Original: Não informada.
                 'poderes' => 'Força sobrenatural, resistência e capacidade de cuspir fogo.',
                 'raca' => 'Monstro',
                 'parentesco_divino' => 'Filha de Equidna',
@@ -593,8 +593,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Tifão',
                 'descricao' => 'Um dos monstros mais poderosos da mitologia e ameaça enorme durante O Último Olimpiano.',
-                'data_nascimento' => 'Era primordial',
-                'idade' => 'Milhares de anos',
+                'data_nascimento' => null, // Original: Era primordial (sem data completa).
+                'idade' => null, // Original: Milhares de anos.
                 'poderes' => 'Força extrema, tempestades, furacões, destruição em massa e enorme resistência.',
                 'raca' => 'Monstro primordial',
                 'parentesco_divino' => 'Filho de Gaia',
@@ -603,8 +603,8 @@ class PersonagemSeeder extends Seeder
             [
                 'nome' => 'Briareu',
                 'descricao' => 'Hecatônquiro encontrado por Percy e seus amigos durante A Batalha do Labirinto.',
-                'data_nascimento' => 'Era primordial',
-                'idade' => 'Milhares de anos',
+                'data_nascimento' => null, // Original: Era primordial (sem data completa).
+                'idade' => null, // Original: Milhares de anos.
                 'poderes' => 'Cem braços, força gigantesca, velocidade de combate e resistência extrema.',
                 'raca' => 'Hecatônquiro',
                 'parentesco_divino' => 'Filho de Urano e Gaia',

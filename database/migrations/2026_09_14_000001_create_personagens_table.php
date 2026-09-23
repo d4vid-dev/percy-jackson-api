@@ -12,8 +12,8 @@ return new class extends Migration
             $table->id();
             $table->string('nome');
             $table->text('descricao');
-            $table->string('data_nascimento')->nullable();
-            $table->string('idade')->nullable();
+            $table->date('data_nascimento')->nullable();
+            $table->integer('idade')->nullable();
             $table->text('poderes')->nullable();
             $table->string('raca')->nullable();
             $table->string('parentesco_divino')->nullable();

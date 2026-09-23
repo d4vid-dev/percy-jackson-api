@@ -11,6 +11,14 @@ class Personagem extends Model
 
     protected $table = 'personagens';
 
+    protected function casts(): array
+    {
+        return [
+            'idade' => 'integer',
+            'data_nascimento' => 'date:Y-m-d',
+        ];
+    }
+
     protected $fillable = [
         'nome',
         'descricao',
