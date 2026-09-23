@@ -25,6 +25,13 @@ Cada personagem pode possuir as seguintes informações:
 
 ---
 
+## 📱 Aplicativo mobile
+
+O app React Native + Expo está em [`mobile/`](mobile/README.md), com dependências
+e configuração próprias. Ele consulta o Laravel para listar personagens e
+exibir seus detalhes e fotos. Consulte o [guia do mobile](mobile/README.md) para
+configurar a URL da API e executar no celular, emulador ou navegador.
+
 ## 🚀 Tecnologias utilizadas
 
 * **PHP**
